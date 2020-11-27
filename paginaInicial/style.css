@@ -1,5 +1,9 @@
+body {
+    background-color: #eee;
+}
+
 .container {
-    display: flexbox;
+    display: flex;
 }
 
 
@@ -8,13 +12,12 @@
     width: 60px;
     height: 60px;
     border-radius: 30px;
-    background-color: #3333ff;
+    background-color: #16b3f1;
     box-shadow: 10px 10px 5px;
     cursor:pointer;
     margin-top:10px;
     margin-right:10px;
     
-
 }
 .menuInterno {
     display: flex;
@@ -37,6 +40,7 @@
     width: 200px;
     height: 100vh;
     background-color: #ccc;
+    transition: all ease .5s;
 }
 
 #menu-area ul, #menu-area li {
@@ -50,4 +54,17 @@
 
 a {
     text-decoration: none;
+}
+
+#menu-area li {
+    
+    display: block;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.openClosed {
+
+    width: 200px;
+
 }
