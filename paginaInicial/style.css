@@ -10,6 +10,9 @@
     border-radius: 30px;
     background-color: #3333ff;
     box-shadow: 10px 10px 5px;
+    cursor:pointer;
+    margin-top:10px;
+    margin-right:10px;
     
 
 }
@@ -20,30 +23,31 @@
     
 }
 
-.traco1 {
+.traco1 , .traco2, .traco3{
     
     width: 30px;
     height: 7px;
     border-radius: 5px;
     background-color: black;
-    margin-top: 11px;
+    margin-top: 9px;
     
 }
 
-.traco2 {
-    
-    width: 30px;
-    height: 7px;
-    border-radius: 5px;
-    background-color: black;
-    margin-top: 7px;
-    
+#menu-area {
+    width: 200px;
+    height: 100vh;
+    background-color: #ccc;
 }
 
-.traco3 {
-    width: 30px;
-    height: 7px;
-    border-radius: 5px;
-    background-color: black;
-    margin-top: 7px;
+#menu-area ul, #menu-area li {
+    padding: 0;
+    list-style:none;
+}
+
+#menu-area li:hover {
+    background:#DDD;
+}
+
+a {
+    text-decoration: none;
 }
