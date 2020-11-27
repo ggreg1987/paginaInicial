@@ -4,8 +4,8 @@ body {
 
 .container {
     display: flex;
+    
 }
-
 
 .menu {
     
@@ -37,15 +37,18 @@ body {
 }
 
 #menu-area {
+    
     width: 200px;
     height: 100vh;
     background-color: #ccc;
-    transition: all ease .5s;
+    transition: all ease .5s;  
+    overflow-y: auto;
 }
 
 #menu-area ul, #menu-area li {
     padding: 0;
     list-style:none;
+    
 }
 
 #menu-area li:hover {
@@ -63,8 +66,4 @@ a {
     cursor: pointer;
 }
 
-.openClosed {
 
-    width: 200px;
-
-}
