@@ -1,0 +1,69 @@
+body {
+    background-color: #eee;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.menu {
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #16b3f1;
+    box-shadow: 10px 10px 5px;
+    cursor:pointer;
+    margin-top:10px;
+    margin-right:10px;
+    
+}
+.menuInterno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.traco1 , .traco2, .traco3{
+    
+    width: 25px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: rgb(1, 51, 51);
+    margin-top: 7px;
+    
+}
+
+#menu-area {
+    
+    width: 200px;
+    height: 100vh;
+    background-color: #ccc;
+    transition: all ease .5s;  
+    overflow-y: auto;
+}
+
+#menu-area ul, #menu-area li {
+    padding: 0;
+    list-style:none;
+    
+}
+
+#menu-area li:hover {
+    background:#DDD;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu-area li {
+    
+    display: block;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
